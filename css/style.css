@@ -1,0 +1,253 @@
+#logo
+{
+	padding:30px;
+	
+	position:absolute;
+	right:350px;
+	top:0px;
+	
+}
+
+body
+{
+	background-color:#fff6f1;
+	font-family:"helvetica",arial;
+}
+
+#contenido
+{
+
+	width:960px;
+	margin:0 auto;
+	text-align:right; 
+	 text-align: -moz-right;
+
+}
+
+h1
+{
+color:#e44e2d
+
+}
+
+h2
+{
+	color:#e44e2a;
+}
+nav ul li
+{
+	display:inline-block;
+	margin-right:20px;
+	color:#1d1d1d;
+	cursor:pointer;
+}
+
+section
+{
+
+	position:absolute;
+	top:235px;
+	left:100px;
+}
+
+#txtPr
+{
+
+	width:900px;
+	height:430px;
+	background-color:#1d1d1d;
+	color:#fff;
+	margin:auto;
+	
+	border-radius:20px;
+	padding:20px;
+	box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+	text-align:center;
+}
+
+a
+{
+	color:#e44e2d;
+	font-weight:bold;
+}
+
+aside
+{
+
+  position:absolute;
+  top:165px;
+  right:50px;
+  width:250px;
+  float:right;
+  border-left:1px solid #ebebeb;
+  background-color: #F7F6F6;
+  margin:auto;
+  border-radius:10px;
+  padding:10px;
+  box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+}
+
+
+
+#cons
+{
+	width:600px;
+	height:60px;
+	color:#fff;
+	background-color:#1d1d1e;
+	margin:auto;
+	border-radius:15px;
+	padding:10px;
+}
+
+#miCan
+{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+
+	
+}
+
+#banner
+{
+
+	position:absolute;
+	top:5px;
+	left:100px;
+	width:700px;
+	height:150px;
+	box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+	-webkit-border-radius: 45px;  
+    -moz-border-radius: 45px;  
+    border-radius: 45px; 
+
+}
+
+#menuprin
+{
+    position:absolute;
+	top:170px;
+	left:100px;
+	width:900px;
+	height:50px;
+	box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+	border:inset;
+	border-width:3px;
+
+}
+
+#menuprin li
+{
+	display:inline-block;
+	margin-right:120px;
+	color:#1d1d1d;
+	cursor:pointer;
+}
+
+#menuprin li a
+{
+	 /* Border Radius */  
+    -webkit-border-radius: 15px;  
+    -moz-border-radius: 15px;  
+    border-radius: 15px;  
+  
+    /* Border Shadow */  
+    -webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.6);  
+    -moz-box-shadow: 1px 2px 2px rgba(0,0,0,0.6);  
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.6);  
+  
+    color: #ffffff;  
+    background: rgba(0,0,0,0.2);  
+    display: inline-block;  
+    padding: 5px 15px;  
+    outline: none;  
+    text-decoration: none;
+}
+
+
+#menuprin li a:hover {  
+    background: rgba(0,0,0,0.5);  
+    padding: 5px 25px;  
+}  
+  
+#menuprin li a:active {  
+    background: rgba(0,0,0,0.1);  
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);  
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);  
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4);  
+} 
+
+#menuprin li a {  
+  
+    /* Animation (Webkit, Gecko & Mozilla) */  
+    -webkit-transition-duration: 0.20s;  
+    -webkit-transition-timing-function: ease-out;  
+    -moz-transition-duration: 0.20s;  
+    -moz-transition-timing-function: ease-out;  
+} 
+
+
+#carro
+{ 
+	position:absolute;
+	top:50px;
+	right:50px;
+	padding:50px;
+}
+
+
+.expstickybar{
+position:fixed;
+color: white;
+padding: 5px;
+right:0; /*horizontally center bar in window*/
+left:0; /*horizontally center bar in window*/
+visibility:hidden;
+background: #4A394D;
+z-index: 10000;
+width:auto; /*set width of bar to width of entire window*/
+font-weight:bold;
+}
+
+.expstickybar a{
+color: white;
+}
+
+
+div.shadow {
+	width: 300px;
+	margin: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	}
+ 
+div.shadow:hover {
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	}
+
+
+#lista ul li
+{
+float:left;
+display:inline-block;
+padding: 10px;
+}
+
+#lista2 ul li
+{
+float:right;
+display:inline-block;
+padding: 10px;
+}
+
+
+#imagenFlotante {
+  bottom:10px;
+  right:0px;
+  position: fixed;
+}
+#imagenFlotante a img { border: none; }
+
